@@ -24,7 +24,7 @@
                 <input type="text" class="form-control" name="obs_produto" id="obs_produto" aria-describedby="emailHelp" placeholder="Digite as observações">
             </div>      
             <div class="form-group">
-                <label for="obs_produto">Preço unitário</label>
+                <label for="preco_produto">Preço unitário</label>
                 <input type="text" class="form-control" name="preco_produto" id="preco_produto" aria-describedby="emailHelp">
             </div> 
 
