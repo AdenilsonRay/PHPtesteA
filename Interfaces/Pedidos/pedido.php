@@ -10,6 +10,7 @@
 <body>
     <div class="container">
         <form action="cadastrar_pedido.php" method="POST">
+        <h2>Escolha de iten do pedido</h2><br>
             <div class="form-group">
                 <label for="nome_produto">Nome do Produto</label>
                 <input type="text" class="form-control" name="nome_produto" id="nome_produto" aria-describedby="emailHelp" placeholder="Digite o produto" required>
@@ -26,9 +27,9 @@
                 <label for="obs_produto">Preço unitário</label>
                 <input type="text" class="form-control" name="preco_produto" id="preco_produto" aria-describedby="emailHelp">
             </div> 
-                 
 
-            <button type="submit" class="btn btn-primary">Fazer pedido</button>
+
+            <button type="submit" class="btn btn-primary">Adicionar itens</button>
             
         </form>  
     </div>
