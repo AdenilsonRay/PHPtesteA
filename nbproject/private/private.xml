@@ -5,8 +5,8 @@
         <group>
             <file>file:/C:/xampp/htdocs/RestauranteB/index.php</file>
             <file>file:/C:/xampp/htdocs/RestauranteB/BDA/conexao.php</file>
-            <file>file:/C:/xampp/htdocs/RestauranteB/login.php</file>
             <file>file:/C:/xampp/htdocs/RestauranteB/config.php</file>
+            <file>file:/C:/xampp/htdocs/RestauranteB/Interfaces/Login/login.php</file>
         </group>
     </open-files>
 </project-private>

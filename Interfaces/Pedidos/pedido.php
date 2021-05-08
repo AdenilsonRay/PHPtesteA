@@ -8,7 +8,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    
+    <div class="container">
+        <form action="cadastrar_pedido.php" method="POST">
+            <div class="form-group">
+                <label for="nome_produto">Nome do Produto</label>
+                <input type="text" class="form-control" name="nome_produto" id="nome_produto" aria-describedby="emailHelp" placeholder="Digite o produto" required>
+            </div>      
+            <div class="form-group">
+                <label for="qtd_produto">Quantidade</label>
+                <input type="number" class="form-control" name="qtd_produto" id="qtd_produto" aria-describedby="emailHelp" required maxlength="10">
+            </div>
+            <div class="form-group">
+                <label for="obs_produto">Observação</label>
+                <input type="text" class="form-control" name="obs_produto" id="obs_produto" aria-describedby="emailHelp" placeholder="Digite as observações">
+            </div>      
+            <div class="form-group">
+                <label for="obs_produto">Preço unitário</label>
+                <input type="text" class="form-control" name="preco_produto" id="preco_produto" aria-describedby="emailHelp">
+            </div> 
+                 
+
+            <button type="submit" class="btn btn-primary">Fazer pedido</button>
+            
+        </form>  
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
